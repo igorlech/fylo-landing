@@ -1,0 +1,14 @@
+.infobox {
+    margin: var(--extra-spacing) 0;
+}
+
+.infobox-item {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: var(--big-spacing) var(--medium-spacing);
+}
+
+.infobox-img {
+    margin-bottom: var(--medium-spacing);
+}
