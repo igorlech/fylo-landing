@@ -1,16 +1,18 @@
 header {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 
     font-family: var(--primary-font-family);
     background-color: var(--nav-bg-color);
-    width: 100%;
-    height: 60px;
+    width: 100vw;
+    height: var(--nav-height);
 }
 
 .nav-logo {
-    height: 30px;
-    width: 95px;
+    height: 35px;
+    width: 115px;
+    margin: var(--default-spacing);
 }
 
 .nav-list {
@@ -18,4 +20,10 @@ header {
     flex-direction: row;
 
     list-style: none;
+
+    li {
+        font-size: 1.1rem;
+        margin-right: var(--default-spacing);
+        opacity: 0.8;
+    }
 }

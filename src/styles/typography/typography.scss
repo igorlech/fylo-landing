@@ -6,3 +6,25 @@ h5,
 h6 {
     font-family: var(--primary-font-family);
 }
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: var(--secondary-font-weight);
+    margin-bottom: var(--default-spacing);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: var(--secondary-font-weight);
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: var(--secondary-font-weight);
+}
+
+p {
+    font-size: var(--body-font-size);
+    font-weight: var(--primary-font-weight);
+    margin-bottom: var(--medium-spacing);
+}

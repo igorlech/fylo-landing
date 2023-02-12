@@ -12,11 +12,21 @@
     --white-color: hsl(0, 0%, 100%);
 
     // Fonts
-    --body-font-size: 14px;
+    --body-font-size: 1.2rem;
 
     --primary-font-family: 'Raleway', sans-serif;
     --secondary-font-family: 'Open Sans', sans-serif;
 
     --primary-font-weight: 400;
     --secondary-font-weight: 700;
+
+    // Spacing
+    --default-spacing: 1rem;
+    --middle-spacing: 1.5rem;
+    --medium-spacing: 2rem;
+
+    --nav-height: 100px;
+
+    // Breakpoints
+    --mobile-breakpoint: 375px;
 }
