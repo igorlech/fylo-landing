@@ -1,6 +1,8 @@
 .primary-btn {
     font-size: 1.5rem;
-    padding: 1rem 8rem;
+    padding: 16px 120px;
     border: none;
     border-radius: 50px;
+    color: var(--white-color);
+    background: linear-gradient(90deg, var(--cyan-color) -10%, var(--blue-color));
 }
