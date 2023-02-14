@@ -1,0 +1,29 @@
+.testimonials {
+    display: grid;
+}
+
+.testimonials-item {
+    margin: var(--medium-spacing) var(--medium-extra-spacing);
+    padding: var(--medium-spacing);
+    background-color: var(--testimonials-bg-color);
+    border-radius: 10px;
+}
+
+.testimonials-person {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .testimonials-person-info {
+        margin-left: var(--middle-spacing);
+    }
+}

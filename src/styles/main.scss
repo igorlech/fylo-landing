@@ -15,7 +15,11 @@ a {
     margin: var(--medium-spacing) 0;
 }
 
-.centered {
+.centered-text {
+    text-align: center;
+}
+
+.centered-block {
     display: flex;
     flex-direction: column;
     align-items: center;
