@@ -6,3 +6,20 @@
     color: var(--white-color);
     background: linear-gradient(90deg, var(--cyan-color) -10%, var(--blue-color));
 }
+
+.img-text-btn {
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 5px solid var(--cyan-color);
+    color: var(--cyan-color);
+
+    .underline-btn {
+        margin: 0;
+    }
+
+    .img-text-btn-arrow {
+        width: 30px;
+        margin-left: var(--default-spacing);
+    }
+}

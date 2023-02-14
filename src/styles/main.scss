@@ -14,3 +14,11 @@ a {
     width: 450px;
     margin: var(--medium-spacing) 0;
 }
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
