@@ -1,5 +1,10 @@
 .testimonials {
     display: grid;
+    place-content: center;
+}
+
+.testimonials-content {
+    position: relative;
 }
 
 .testimonials-item {
@@ -7,6 +12,13 @@
     padding: var(--medium-spacing);
     background-color: var(--testimonials-bg-color);
     border-radius: 10px;
+    max-width: 500px;
+}
+
+.testimonials-picture {
+    position: absolute;
+    left: 10%;
+    top: -10px;
 }
 
 .testimonials-person {
