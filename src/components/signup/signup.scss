@@ -1,0 +1,28 @@
+.signup {
+    background: linear-gradient(
+        to bottom,
+        var(--primary-bg-color) 0%,
+        var(--primary-bg-color) 50%,
+        var(--footer-bg-color) 50%,
+        var(--footer-bg-color) 100%
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--medium-spacing);
+}
+
+.signup-content {
+    text-align: center;
+    padding: var(--medium-extra-spacing) var(--medium-spacing);
+    background-color: var(--nav-bg-color);
+    max-width: 600px;
+}
+
+.signup-input {
+    width: 100%;
+    padding: var(--default-spacing);
+    border-radius: 50px;
+    margin-bottom: var(--middle-spacing);
+}

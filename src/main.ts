@@ -3,6 +3,7 @@ import { Nav } from '@components/nav/nav';
 import { Infobox } from '@components/infobox/infobox';
 import { ImgText } from '@components/img-text/img-text';
 import { Testimonials } from '@components/testimonials/testimonials';
+import { Signup } from '@components/signup/signup';
 import { Footer } from '@components/footer/footer';
 import './styles.scss';
 
@@ -14,5 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     new Infobox();
     new ImgText();
     new Testimonials();
+    new Signup();
     new Footer();
 });

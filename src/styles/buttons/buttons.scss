@@ -1,10 +1,14 @@
 .primary-btn {
-    font-size: 1.5rem;
-    padding: 16px 120px;
+    font-size: 1.2rem;
+    padding: var(--default-spacing) 150px;
     border: none;
     border-radius: 50px;
     color: var(--white-color);
     background: linear-gradient(90deg, var(--cyan-color) -10%, var(--blue-color));
+
+    @media screen and (max-width: 450px) {
+        padding: var(--default-spacing) 25%;
+    }
 }
 
 .img-text-btn {
@@ -20,6 +24,13 @@
 
     .img-text-btn-arrow {
         width: 30px;
-        margin-left: var(--default-spacing);
+        margin-left: var(--middle-spacing);
+    }
+}
+
+.signup-btn {
+    font-size: 1rem;
+    @media screen and (max-width: 450px) {
+        padding: var(--default-spacing) 20%;
     }
 }
