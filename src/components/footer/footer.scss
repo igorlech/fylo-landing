@@ -2,8 +2,36 @@ footer {
     background-color: var(--footer-bg-color);
 }
 
+.footer-logo {
+    padding: var(--medium-spacing);
+}
+
+.footer-contact {
+    margin-bottom: var(--medium-extra-spacing);
+}
+
+.footer-contact-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: var(--default-spacing) var(--medium-extra-spacing);
+
+    .footer-icon {
+        width: 25px;
+        height: 25px;
+
+        &.icon-corrected {
+            width: 20px;
+            height: 25px;
+        }
+    }
+}
+
 .footer-nav {
     ul {
         list-style: none;
+
+        li {
+            padding-bottom: var(--default-spacing);
+        }
     }
 }
