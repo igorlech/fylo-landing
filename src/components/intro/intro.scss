@@ -2,5 +2,29 @@
     display: grid;
     place-items: center;
     text-align: center;
-    margin: 0 var(--middle-spacing);
+    padding: 0 var(--middle-spacing);
+    position: relative;
+
+    background: linear-gradient(
+        to bottom,
+        var(--nav-bg-color) 0%,
+        var(--nav-bg-color) 60%,
+        var(--primary-bg-color) 60%,
+        var(--primary-bg-color) 100%
+    );
+
+    .default-img,
+    h1,
+    p {
+        z-index: 2;
+    }
+}
+
+.intro-curve {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
