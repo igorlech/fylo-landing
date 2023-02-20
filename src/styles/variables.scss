@@ -12,7 +12,7 @@
     --white-color: hsl(0, 0%, 100%);
 
     // Fonts
-    --body-font-size: 1rem;
+    --body-font-size: 0.9rem;
 
     --primary-font-family: 'Raleway', sans-serif;
     --secondary-font-family: 'Open Sans', sans-serif;
@@ -21,10 +21,12 @@
     --secondary-font-weight: 700;
 
     // Spacing
+    --small-spacing: 0.5rem;
     --default-spacing: 1rem;
     --middle-spacing: 1.5rem;
     --medium-spacing: 2rem;
     --medium-extra-spacing: 3rem;
+    --medium-big-spacing: 4rem;
     --big-spacing: 5rem;
     --extra-spacing: 7rem;
     --big-extra-spacing: 10rem;

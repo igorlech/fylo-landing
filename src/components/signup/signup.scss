@@ -10,20 +10,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: var(--medium-spacing);
+    padding: var(--small-spacing);
 }
 
 .signup-content {
     text-align: center;
-    padding: var(--medium-extra-spacing) var(--medium-spacing);
+    padding: var(--medium-spacing) var(--middle-spacing);
     background-color: var(--nav-bg-color);
     max-width: 600px;
     border-radius: 10px;
     box-shadow: 2px 2px 15px 2px rgb(26, 26, 26);
+    margin: var(--default-spacing);
 }
 
 .signup-input {
     width: 100%;
+    font-size: 0.8rem;
     padding: var(--default-spacing);
     border-radius: 50px;
     margin-bottom: var(--middle-spacing);
