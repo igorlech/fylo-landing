@@ -6,7 +6,7 @@
     color: var(--white-color);
     background: linear-gradient(90deg, var(--cyan-color) -10%, var(--blue-color));
 
-    @media screen and (max-width: 450px) {
+    @media screen and (min-width: 450px) {
         padding: var(--default-spacing) 25%;
     }
 }
@@ -31,7 +31,7 @@
 .signup-btn {
     font-size: 0.8rem;
     width: 100%;
-    @media screen and (max-width: 450px) {
+    @media screen and (min-width: 450px) {
         padding: var(--default-spacing) 20%;
     }
 }
