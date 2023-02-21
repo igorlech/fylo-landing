@@ -1,6 +1,7 @@
 .testimonials {
     display: grid;
     place-content: center;
+
     margin-bottom: var(--extra-spacing);
 }
 
@@ -9,15 +10,16 @@
 }
 
 .testimonials-item {
+    max-width: 500px;
+    border-radius: 10px;
     margin: var(--medium-spacing) var(--medium-spacing);
     padding: var(--middle-spacing);
     background-color: var(--testimonials-bg-color);
-    border-radius: 10px;
-    max-width: 500px;
 }
 
 .testimonials-picture {
     position: absolute;
+
     left: 10%;
     top: -10px;
 }
