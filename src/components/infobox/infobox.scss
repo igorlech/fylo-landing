@@ -1,4 +1,7 @@
 .infobox {
+    display: grid;
+    align-items: center;
+    justify-content: center;
     margin: var(--extra-spacing) 0;
 }
 
@@ -6,7 +9,8 @@
     display: grid;
     place-items: center;
     text-align: center;
-    margin: var(--big-spacing) var(--medium-spacing);
+    margin: var(--medium-spacing) var(--medium-spacing);
+    max-width: 500px;
 }
 
 .infobox-img {

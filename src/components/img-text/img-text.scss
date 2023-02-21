@@ -1,7 +1,11 @@
 .img-text {
+    display: grid;
+    align-items: center;
+    justify-content: center;
     margin-bottom: var(--big-extra-spacing);
 }
 
 .img-text-content {
     margin: 0 var(--medium-spacing);
+    max-width: 500px;
 }
